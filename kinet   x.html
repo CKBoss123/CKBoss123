@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<style>
+	display:a;
+	</style>
+	<body>
+		<h1><br>Clash Royale</h1>
+		<h2>(played mostly in 2015-2016)</h2>
+		<button id="my-button">
+		Learn More
+		</button>
+		<div id="a">
+		</div>
+		
+		<h1><br>Critical Ops</h1><h2>(played mostly in 2016-2017)</h2>
+		<button id="my-button2">
+		Learn More
+		</button>
+	</body>
+	
+	<script>
+	var buttn=document.getElementById("my-button");
+	buttn.addEventListener("click",function(e){
+	var box=document.createElement("p");
+	box.innerText="A fun 2v2 multiplayer game where you send forces to take down enemy towers. Objective:Raise your rank level			WIFI:Yes";
+	var div=document.getElementById("a");
+	div.appendChild(box);
+	})
+	
+	var buttn=document.getElementById("my-button2");
+	buttn.addEventListener("click",function(e){
+	var box=document.createElement("p");
+	box.innerText="A intense multiplayer first-person shooter game. Objective(whole concept):Collect skins for your weapons			WIFI:Yes";
+	document.body.appendChild(box);
+	})
+	</script>
+</html>
