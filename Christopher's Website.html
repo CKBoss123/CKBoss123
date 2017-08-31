@@ -16,6 +16,13 @@
 		<button id="my-button2">
 		Learn More 
 		</button>
+		<div id="b">
+		</div>
+	
+		<h1><br>Realm of the Mad God (ROTMG)</h1><h2>(played mostly in 2016-2017)</h2>
+		<button id="my-button3">
+		Learn More 
+		</button>
 	</body>
 	
 	<script>
@@ -30,8 +37,15 @@
 	var buttn=document.getElementById("my-button2");
 	buttn.addEventListener("click",function(e){
 	var box=document.createElement("p");
-	box.innerText="A intense multiplayer first-person shooter game. Objective(whole concept):Collect skins for your weapons			WIFI:Yes";
-	document.body.appendChild(box);
+	box.innerText="An intense multiplayer first-person shooter game. Objective(whole concept):Collect skins for your weapons			WIFI:Yes";
+	var div=document.getElementById("b");
+	div.appendChild(box);
 	})
+	
+	var buttn=document.getElementById("my-button3");
+	buttn.addEventListener("click",function(e){
+	var box=document.createElement("p");
+	box.innerText="An engaging online multiplayer game. Objective:Collect high tiered equipment, pets, and potions from defeating strong bosses 			WIFI:Yes";
+	document.body.appendChild(box);
 	</script>
 </html>
