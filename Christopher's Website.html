@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
+	<title>High Rated Games (2013-2017)</title>
+	<b><u><div id="d" align=center><font size="12"> High Rated Games (2013-2017)</font></div><b></u>
 	<body>
-		<h1><br>Clash Royale</h1>
-		<h2>(played mostly in 2015-2016)</h2>
+		<h1><br>Clash Royale</h1><h2>(played mostly in 2015-2016)</h2>
 		<button id="my-button">
 		Learn More
 		</button>
@@ -16,8 +17,15 @@
 		<div id="b">
 		</div>
 	
-		<h1><br>Realm of the Mad God (ROTMG)</h1><h2>(played mostly in 2016-2017)</h2>
+		<h1><br>Realm of the Mad God (ROTMG)</h1><h2>(played mostly in 2013-2016)</h2>
 		<button id="my-button3">
+		Learn More 
+		</button>
+		<div id="c">
+		</div>
+		
+		<h1><br>Super Smash Bros.</h1><h2>(played mostly in 2014)</h2>
+		<button id="my-button4">
 		Learn More 
 		</button>
 	</body>
@@ -43,6 +51,14 @@
 	buttn.addEventListener("click",function(e){
 	var box=document.createElement("p");
 	box.innerText="An engaging online multiplayer game. Objective:Collect high tiered equipment, pets, and potions from defeating strong bosses 			WIFI:Yes";
+	var div=document.getElementById("c");
+	div.appendChild(box);
+	})
+	
+	var buttn=document.getElementById("my-button4");
+	buttn.addEventListener("click",function(e){
+	var box=document.createElement("p");
+	box.innerText="An action-packed game that is able to be played on the WII U . Objective:Collect all the characters 			WIFI:Yes (but only for multiplayer)";
 	document.body.appendChild(box);
 	})
 	</script>
